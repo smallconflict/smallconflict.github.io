@@ -7,14 +7,18 @@ body {
 }
 
 .small {
+	margin-left: 30px;
 	color: #C3132A;
 	font-family: Georgia;
 	font-size: 20px;
+	font-weight:bold;
 }
 
 .conflict {
 	color: #414141;
-	font-family: Impact;
+	font-family: 'Passion One', cursive;
+	letter-spacing: 1px;
+	font-weigt: 700;
 	font-size: 25px;
 }
 
