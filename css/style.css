@@ -1,7 +1,28 @@
 body {
   padding-top: 50px;
 }
-.starter-template {
-  padding: 40px 15px;
+
+.navbar-nav {
+	float: right !important;
+}
+
+.main {
+	padding: 40px 15px;
   text-align: center;
 }
+
+.one-row {
+	overflow: hidden;
+	margin-bottom: 80px;
+}
+
+/*Media Queries*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
