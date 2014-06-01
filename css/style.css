@@ -2,27 +2,75 @@ body {
   padding-top: 50px;
 }
 
+.logo {
+	margin: -70px 20px 0 -20px;
+}
+
+.small {
+	color: #C3132A;
+	font-family: Georgia;
+	font-size: 20px;
+}
+
+.conflict {
+	color: #414141;
+	font-family: Impact;
+	font-size: 25px;
+}
+
+.navbar-inverse {
+	background-color: #fafafa;
+	border: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+
+}
+
 .navbar-nav {
 	float: right !important;
 }
 
 .main {
 	padding: 40px 15px;
-  text-align: center;
+}
+
+.abouttext {
+	margin-top: 5px;
+	text-align: left;
 }
 
 .one-row {
-	overflow: hidden;
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
+
+h3 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+}
+
+.about {
+	border-top: 3px solid #C3132A;
+	padding: 30px 0 60px 0;
+}
+
+.students {
+	margin-top: -150px;
+}
+
+.about > h3 {
+	margin-left: 15px;
+}
+
 
 /*Media Queries*/
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 768px) {
+	.students {
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width: 500px) {
+}
