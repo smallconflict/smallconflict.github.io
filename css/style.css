@@ -12,6 +12,10 @@ body {
 
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #414141;
+}
+
 .navbar-nav {
 	float: right !important;
 }
@@ -57,6 +61,9 @@ h3 {
 	font-weight: 700;
 }
 
+.col-md-3 > a {
+	color: #000;
+}
 
 /* about */
 .about {
