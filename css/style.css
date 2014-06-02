@@ -9,6 +9,8 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
+	border-bottom: 3px solid #fafafa;
+	border-right: 1px solid #ececec;
 	color: #414141;
 }	
 
