@@ -14,7 +14,7 @@ body {
 	color: #414141;
 }	
 
-.navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active {
 	color: #414141;
 	border-bottom: 3px solid #C3132A;
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .conflict {
-	color: #414141;
+	color: #000;
 	font-family: 'Passion One', cursive;
 	letter-spacing: 1px;
 	font-weigt: 700;
