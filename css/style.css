@@ -2,12 +2,33 @@ body {
   padding-top: 50px;
 }
 
-.logo {
-	margin: -70px 20px 0 -20px;
+/*navbar*/
+.navbar-inverse {
+	background-color: #fafafa;
+	border: 0;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+
+}
+
+.navbar-nav {
+	float: right !important;
+}
+
+/* big logo */
+.logo {
+	margin: -70px 0 0 0;
+}
+
+.abouttext {
+	padding-right: 15px;
+	margin-top: 10px;
+}
+
+/* brand */
 .small {
-	margin-left: 30px;
+	margin-left: 45px;
 	color: #C3132A;
 	font-family: Georgia;
 	font-size: 20px;
@@ -22,26 +43,9 @@ body {
 	font-size: 25px;
 }
 
-.navbar-inverse {
-	background-color: #fafafa;
-	border: 0;
-}
-
-.navbar-inverse .navbar-nav>li>a {
-
-}
-
-.navbar-nav {
-	float: right !important;
-}
-
+/* main content */
 .main {
 	padding: 40px 15px;
-}
-
-.abouttext {
-	margin-top: 5px;
-	text-align: left;
 }
 
 .one-row {
@@ -53,6 +57,8 @@ h3 {
 	font-weight: 700;
 }
 
+
+/* about */
 .about {
 	border-top: 3px solid #C3132A;
 	padding: 30px 0 60px 0;
