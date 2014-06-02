@@ -9,11 +9,12 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-
-}
+	color: #414141;
+}	
 
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #414141;
+	border-bottom: 3px solid #C3132A;
 }
 
 .navbar-nav {
