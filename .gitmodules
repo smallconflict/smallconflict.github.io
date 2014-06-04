@@ -1,0 +1,21 @@
+[submodule "UnclassProject"]
+	path = pills
+	url = git@github.com:yeamal/UnclassProject.git
+[submodule "team-4-take-3"]
+	path = coping-mechanisms
+	url = git@github.com:kmkryah/team-4-take-3.git
+[submodule "pierogi-wars"]
+	path = pierogi-wars
+	url = git@github.com:tannerdactyl/pierogi-wars.git
+[submodule "unclass-group-1"]
+	path = birth-control
+	url = git@github.com:suyeonson/unclass-group-1.git
+[submodule "emptydominicks"]
+	path = empty-dominicks
+	url = git@github.com:dmrogers/emptydominicks.git
+[submodule "Amplified"]
+	path = amplified
+	url = git@github.com:creyes221/Amplified.git
+[submodule "bannedbooks"]
+	path = banned-books
+	url = git@github.com:nicolezhu/unclass-bannedbooks.git
